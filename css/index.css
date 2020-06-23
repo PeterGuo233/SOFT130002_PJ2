@@ -1,0 +1,126 @@
+header {
+    color: black;
+    background-color: black;
+    height: 60px;
+}
+h4 a{
+    padding: 20px;
+    list-style-type: none;
+    float:left;
+    color: white;
+    text-decoration-line: none;
+}
+h4 li{
+    float:right;
+    list-style-type: none;
+    padding-right: 0;
+    color: white;
+}
+
+#personal{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+.down{display: block;
+    overflow: hidden;
+    list-style: none;
+    clear: both;
+    }
+.down div{ display: none;
+    position: relative;
+    width: 120px;
+    transition: all 0.5s 0.1s;
+
+}
+#personal li:hover ul div {
+    display: block;
+    position: relative;
+}
+.down div li { padding: 0;
+    width: 100%;
+    background: #000000!important; }
+.main {width:100%;
+    background: url(../../img/travel-images/normal/medium/6114904363.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    }
+
+.test-area {
+    width: 100%;
+    overflow: hidden;
+}
+.title-name {background-color: black;}
+
+
+.list-photo {
+    margin: 40px 5%;
+    background: #B6BBC0;
+    width: 300px;
+    height: 450px;
+    float: left;
+    border-radius: 20px;
+
+}
+.list-image {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 20px;
+    background: url(../img/travel-images/normal/small/9498381010.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.list-name {
+    width: 250px;
+    margin: 0px 25px;
+    font-size: 25px;
+}
+.list-info {
+    width: 250px;
+    height: 80px;
+    margin: 10px 25px;
+    font-size: 15px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    background: snow;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+footer{
+    background-color: black;
+    height: 250px;
+}
+.col {
+    float: left;
+    color: #FFFFFF;
+    width: 15%;
+    height: 120px;
+    margin: 40px 5%;
+    text-align: center;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: cornflowerblue;
+
+}
+/*固定图标位置*/
+#totop {
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+}
+
+
+
+#reload {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}

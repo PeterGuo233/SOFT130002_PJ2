@@ -1,0 +1,189 @@
+header {
+    color: black;
+    background-color: black;
+    height: 60px;
+}
+h4 a{
+    padding: 20px;
+    list-style-type: none;
+    float:left;
+    color: white;
+    text-decoration-line: none;
+}
+h4 li{
+    float:right;
+    list-style-type: none;
+    padding-right: 0;
+    color: white;
+}
+
+#personal{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+.down{display: block;
+    overflow: hidden;
+    list-style: none;
+    clear: both;
+}
+.down div{ display: none;
+    position: relative;
+    width: 120px;
+    transition: all 0.5s 0.1s;
+
+}
+#personal li:hover ul div {
+    display: block;
+    position: relative;
+}
+.down div li { padding: 0;
+    width: 100%;
+    background: #000000!important; }
+.search-area {
+    width: 80%;
+    height: 250px;
+    background: snow;
+    margin: 0px 10%;
+    border-radius: 5px;
+}
+
+
+
+.search-title {
+
+    margin: auto;
+
+    width: 100%;
+
+    background: #bbd3e1;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+
+}
+
+
+
+.filter {
+
+    width: 80%;
+
+    background: #acb1f9;
+
+    margin: 0px 10%;
+
+    border-radius: 5px;
+
+}
+
+
+
+.filter-show {
+
+    width: 100%;
+
+    height: 1100px;
+
+    font-size: 25px;
+
+    background: #ceadb2;
+
+    overflow: hidden;
+
+}
+
+
+
+.list-show {
+
+    width: 100%;
+
+    height: 210px;
+
+    font-size: 25px;
+
+    background: snow;
+
+}
+
+
+
+.list-image {
+
+    float: left;
+
+    margin: 20px;
+
+    width: 170px;
+
+    height: 170px;
+
+    border-radius: 15px;
+
+    background: url(../../img/travel-images/normal/small/9498358806.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+
+
+.list-name {
+
+    font-size: 25px;
+
+}
+
+
+
+.list-info {
+    width: 75%;
+    height: 73px;
+    margin: 10px 25px;
+    font-size: 17px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+
+.pages {
+    width: 96%;
+    text-align: center;
+}
+
+
+
+.page {
+    color: #2E7BAD;
+}
+.modify {
+    width: 100px;
+
+}
+footer{
+    background-color: black;
+    height: 250px;
+}
+.col {
+    float: left;
+    color: #FFFFFF;
+    width: 15%;
+    height: 120px;
+    margin: 40px 5%;
+    text-align: center;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: cornflowerblue;
+
+}

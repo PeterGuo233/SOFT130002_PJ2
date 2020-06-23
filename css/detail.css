@@ -1,0 +1,234 @@
+header {
+    color: black;
+    background-color: black;
+    height: 60px;
+}
+h4 a{
+    padding: 20px;
+    list-style-type: none;
+    float:left;
+    color: white;
+    text-decoration-line: none;
+}
+h4 li{
+    float:right;
+    list-style-type: none;
+    padding-right: 0;
+    color: white;
+}
+#personal{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+.down{display: block;
+    overflow: hidden;
+    list-style: none;
+    clear: both;
+}
+.down div{ display: none;
+    position: relative;
+    width: 120px;
+    transition: all 0.5s 0.1s;
+
+}
+#personal li:hover ul div {
+    display: block;
+    position: relative;
+}
+.down div li { padding: 0;
+    width: 100%;
+    background: #000000!important; }
+.main-bottom {
+
+    width: 100%;
+
+}
+
+
+
+.content {
+
+    width:100%;
+
+    background: ivory;
+
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.search-title {
+    margin: auto;
+    width: 100%;
+    background: #ccffde;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+.search-line {
+
+    width: 250px;
+
+    margin: auto;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+
+}
+
+
+
+.p-info {
+
+    text-align: center;
+
+    color: gray;
+
+}
+
+
+
+.filter {
+
+    width: 80%;
+
+    background: snow;
+
+    margin: 0px 10%;
+
+    border-radius: 5px;
+
+}
+
+
+
+.filter-show {
+    width: 100%;
+    font-size: 25px;
+
+    overflow: hidden;
+
+}
+
+
+
+.list-show {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+
+
+.list-image {
+
+    float: left;
+
+    margin: 30px 0% 0px 10%;
+
+    width: 35%;
+
+}
+
+
+
+.list-details {
+
+    float: right;
+
+    margin: 0px 10% 0px 0px;
+
+    width: 40%;
+
+}
+
+
+
+.list-name {
+
+    font-size: 25px;
+
+}
+
+
+
+.description {
+
+    width: 100%;
+
+    float: left;
+
+}
+
+
+
+.list-info {
+
+    width: 80%;
+
+    margin: 10px 10%;
+
+    font-size: 17px;
+
+}
+
+
+
+.pages {
+
+    width: 96%;
+
+    text-align: center;
+
+}
+
+
+
+.page {
+    color: snow;
+}
+
+
+
+.modify {
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: darkgray;
+}
+
+
+
+.title-name {
+
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    height: 250px;
+}
+.col {
+    float: left;
+    color: #FFFFFF;
+    width: 15%;
+    height: 120px;
+    margin: 40px 5%;
+    text-align: center;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: cornflowerblue;
+
+}
